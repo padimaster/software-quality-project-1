@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,7 +11,9 @@ export default function Home() {
         width={200}
       ></Image>
       <h1>ASANAS</h1>
-      BUTTON
+      <Button>
+        Login
+      </Button>
     </main>
   );
 }

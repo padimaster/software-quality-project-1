@@ -9,7 +9,8 @@ export default function Home() {
         height={200}
         width={200}
       ></Image>
-      
+      <h1>ASANAS</h1>
+      BUTTON
     </main>
   );
 }

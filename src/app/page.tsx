@@ -1,18 +1,20 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex flex-col items-center justify-center gap-10 p-24">
       <Image
-        src={"/images/logos/logo.png"}
+        src={"/images/logos/logo.svg"}
         alt="Asanas Logo"
-        height={200}
-        width={200}
+        height={300}
+        width={300}
+        className=""
       ></Image>
-      <h1>ASANAS</h1>
-      <Button>
-        Login
+      <h1 className="text-5xl color-foreground">ASANAS</h1>
+      <Button asChild className="text-2xl rounded-full px-10 py-8">
+        <Link href={"/languages"}>Ingresar</Link>
       </Button>
     </main>
   );

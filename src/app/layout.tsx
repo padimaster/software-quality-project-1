@@ -1,22 +1,30 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
+import type { Metadata } from "next";
+import "./globals.css";
+import { Header, Footer } from "@/components/layout";
 
-const inter = Inter({ subsets: ['latin'] })
+import { Krona_One } from "next/font/google";
+
+const inter = Krona_One({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
-  title: 'Asanas',
-  description: 'Meditación y Yoga',
-}
+  title: "Asanas",
+  description: "Meditación y Yoga",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`${inter.className} h-screen flex flex-col justify-between`}
+      >
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
-  )
+  );
 }

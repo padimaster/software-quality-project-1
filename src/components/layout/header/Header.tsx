@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import Image from "next/image";
-import { Separator } from "@/components/ui/separator";
+import Image from 'next/image';
+import { Separator } from '@/components/ui/separator';
 
 export default function Header() {
   return (
@@ -9,7 +9,7 @@ export default function Header() {
       <div>
         <header className="w-full flex items-center justify-between px-16 py-4">
           <Image
-            src={"/images/logos/logo.svg"}
+            src={'/images/logos/logo.svg'}
             className="w-16"
             width={100}
             height={100}

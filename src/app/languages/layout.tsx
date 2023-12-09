@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
-import { Header, Footer } from "@/components/layout";
+import type { Metadata } from 'next';
+import { Header, Footer } from '@/components/layout';
 
 export const metadata: Metadata = {
-  title: "Asanas",
-  description: "Meditación y Yoga",
+  title: 'Asanas',
+  description: 'Meditación y Yoga'
 };
 
 export default function RootLayout({
-  children,
+  children
 }: {
   children: React.ReactNode;
 }) {

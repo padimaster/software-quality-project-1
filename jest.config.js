@@ -8,6 +8,7 @@ const createJestConfig = nextJest({
 const config = {
   collectCoverageFrom: [
     'app/**/*.{js,jsx,ts,tsx}',
+    'components/**/*.{js,jsx,ts,tsx}',
     '!**/*.d.ts',
     '!**/node_modules/**'
   ],

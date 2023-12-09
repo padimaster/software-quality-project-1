@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { Header, Footer } from '@/components/layout';
 
 export const metadata: Metadata = {
   title: 'Asanas',

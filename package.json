@@ -17,11 +17,13 @@
     "create-hook:pre-push": "npx husky add .husky/pre-push \"npm test\""
   },
   "dependencies": {
+    "@formatjs/intl": "^2.9.9",
     "@radix-ui/react-separator": "^1.0.3",
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "lucide-react": "^0.294.0",
+    "negotiator": "^0.6.3",
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",
@@ -32,6 +34,7 @@
     "@testing-library/jest-dom": "^6.1.5",
     "@testing-library/react": "^14.1.2",
     "@types/jest": "^29.5.11",
+    "@types/negotiator": "^0.6.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

@@ -13,7 +13,8 @@ export default function Asanas({ asanas }: { asanas: Asana[] }) {
   const [searchTerm, setSearchTerm] = useState('');
 
   const pathname = usePathname();
-  const baseAsanasPath = pathname.replace(/\/asanas\/\d+/, '');
+  const baseAsanasPath = pathname.replace(/\/asanas\/\d+/, '/asanas');
+  console.log(baseAsanasPath);
 
   const handleSearch = (term: string) => {
     const lowerCaseTerm = term.toLowerCase();
@@ -40,7 +41,7 @@ export default function Asanas({ asanas }: { asanas: Asana[] }) {
           {filteredAsanas.map((asana: Asana) => (
             <Link
               key={asana.name}
-              href={`${baseAsanasPath}/asanas/${asana.id}`}
+              href={`${baseAsanasPath}/${asana.id}`}
               className="rounded-md border p-2 text-sm w-full"
             >
               {asana.name}

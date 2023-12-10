@@ -2,7 +2,7 @@ import React from 'react';
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { Button } from '@/components/ui/button';
+import ToogleLanguage from './ToogleLanguage';
 
 export default function Header() {
   return (
@@ -18,12 +18,7 @@ export default function Header() {
               className="h-[2rem] w-[6rem] md:h-[2.75rem] md:w-[8.25rem]"
             />
           </Link>
-
-          <Button
-            asChild
-            className="bg-[#119AAD] text-white h-0 py-5 rounded-xl text-lg ml-2
-          hover:scale-105 hover:bg-[#119AAD]/90 transition-all duration-300"
-          ></Button>
+          <ToogleLanguage />
         </div>
       </header>
     </>

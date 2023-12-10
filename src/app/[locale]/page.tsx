@@ -10,7 +10,6 @@ export default async function Home({
   params: { locale: Locale };
 }) {
   const { page } = await getDictionary(locale);
-  console.log(page);
 
   return (
     <main className="flex flex-col items-center justify-center gap-10 p-24">

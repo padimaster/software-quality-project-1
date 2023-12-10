@@ -1,5 +1,6 @@
 [
   {
+    "id": "1",
     "translations": {
       "en": "Mountain Pose",
       "sa": "Tadasana",
@@ -8,6 +9,7 @@
     "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
   },
   {
+    "id": "2",
     "translations": {
       "en": "Downward-Facing Dog",
       "sa": "Adho Mukha Svanasana",
@@ -16,6 +18,7 @@
     "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
   },
   {
+    "id": "3",
     "translations": {
       "en": "Warrior I",
       "sa": "Virabhadrasana I",
@@ -24,6 +27,7 @@
     "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
   },
   {
+    "id": "4",
     "translations": {
       "en": "Warrior II",
       "sa": "Virabhadrasana II",
@@ -32,6 +36,7 @@
     "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
   },
   {
+    "id": "5",
     "translations": {
       "en": "Tree Pose",
       "sa": "Vrikshasana",
@@ -40,6 +45,7 @@
     "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
   },
   {
+    "id": "1",
     "translations": {
       "en": "Child's Pose",
       "sa": "Balasana",
@@ -48,6 +54,7 @@
     "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
   },
   {
+    "id": "1",
     "translations": {
       "en": "Half Cobra Pose",
       "sa": "Ardha Bhujangasana",
@@ -56,6 +63,7 @@
     "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
   },
   {
+    "id": "1",
     "translations": {
       "en": "Seated Forward Bend",
       "sa": "Paschimottanasana",
@@ -64,6 +72,7 @@
     "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
   },
   {
+    "id": "1",
     "translations": {
       "en": "Bridge Pose",
       "sa": "Setu Bandhasana",
@@ -72,6 +81,7 @@
     "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
   },
   {
+    "id": "1",
     "translations": {
       "en": "Corpse Pose",
       "sa": "Shavasana",
@@ -80,6 +90,7 @@
     "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
   },
   {
+    "id": "1",
     "translations": {
       "en": "Triangle Pose",
       "sa": "Trikonasana",
@@ -88,6 +99,7 @@
     "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
   },
   {
+    "id": "1",
     "translations": {
       "en": "Plank Pose",
       "sa": "Kumbhakasana",
@@ -96,67 +108,75 @@
     "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
   },
   {
+    "id": "1",
     "translations": {
       "en": "Upward-Facing Dog",
       "sa": "Urdhva Mukha Svanasana",
       "es": "Perro mirando hacia arriba"
     },
-     "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
+    "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
   },
   {
+    "id": "1",
     "translations": {
       "en": "Fish Pose",
       "sa": "Matsyasana",
       "es": "Postura del Pez"
     },
-     "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
+    "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
   },
   {
+    "id": "1",
     "translations": {
       "en": "Chair Pose",
       "sa": "Utkatasana",
       "es": "Postura de la Silla"
     },
-     "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
+    "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
   },
   {
+    "id": "1",
     "translations": {
       "en": "Garland Pose",
       "sa": "Malasana",
       "es": "Postura de la Guirnalda"
     },
-     "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
+    "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
   },
   {
+    "id": "1",
     "translations": {
       "en": "Pigeon Pose",
       "sa": "Eka Pada Rajakapotasana",
       "es": "Postura de la Paloma"
     },
-     "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
+    "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
   },
   {
+    "id": "1",
     "translations": {
       "en": "Upward Salute",
       "sa": "Urdhva Hastasana",
       "es": "Saludo hacia arriba"
     },
-     "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
+    "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
   },
   {
+    "id": "1",
     "translations": {
       "en": "Revolved Triangle Pose",
       "sa": "Parivrtta Trikonasana",
       "es": "Postura del Triángulo Invertido"
     },
-     "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
+    "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
   },
   {
+    "id": "1",
     "translations": {
       "en": "Revolved Head To Knee Pose",
       "sa": "Parivrtta Janu Sirsasana",
       "es": "Postura de la Cabeza a la Rodilla Invertida"
     },
-     "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
+    "img": "https://xuanlanyoga.com/wp-content/uploads/2020/07/bakasana.png"
   }
 ]

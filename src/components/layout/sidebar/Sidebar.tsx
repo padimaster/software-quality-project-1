@@ -2,18 +2,18 @@
 import { Input } from '@/components/ui/input';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Separator } from '@/components/ui/separator';
+import { Asana } from '@/services/asanas.service';
 import { Search } from 'lucide-react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useState } from 'react';
-
-type Asana = {
-  name: string;
-  img: string;
-};
 
 export default function Asanas({ asanas }: { asanas: Asana[] }) {
   const [filteredAsanas, setFilteredAsanas] = useState(asanas);
   const [searchTerm, setSearchTerm] = useState('');
+
+  const pathname = usePathname();
+  const baseAsanasPath = pathname.replace(/\/asanas\/\d+/, '');
 
   const handleSearch = (term: string) => {
     const lowerCaseTerm = term.toLowerCase();
@@ -40,7 +40,7 @@ export default function Asanas({ asanas }: { asanas: Asana[] }) {
           {filteredAsanas.map((asana: Asana) => (
             <Link
               key={asana.name}
-              href={asana.img}
+              href={`${baseAsanasPath}/asanas/${asana.id}`}
               className="rounded-md border p-2 text-sm w-full"
             >
               {asana.name}

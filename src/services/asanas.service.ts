@@ -1,6 +1,7 @@
 import { Locale } from '@/i18n.config';
 
-type Asana = {
+export type Asana = {
+  id: string;
   name: string;
   img: string;
 };
@@ -11,6 +12,7 @@ export const getAsanas = async (locale: Locale) => {
   );
 
   const translatedAsanas: Asana[] = await asanas.map((asana) => ({
+    id: asana.id,
     name: asana.translations[locale],
     img: asana.img
   }));

@@ -45,7 +45,7 @@
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/01/34-treepose.jpg"
   },
   {
-    "id": "1",
+    "id": "6",
     "translations": {
       "en": "Child's Pose",
       "sa": "Balasana",
@@ -54,7 +54,7 @@
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/childspose.png"
   },
   {
-    "id": "1",
+    "id": "7",
     "translations": {
       "en": "Half Cobra Pose",
       "sa": "Ardha Bhujangasana",
@@ -63,7 +63,7 @@
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/Bhujangasana-Cobra-Pose.png"
   },
   {
-    "id": "1",
+    "id": "8",
     "translations": {
       "en": "Seated Forward Bend",
       "sa": "Paschimottanasana",
@@ -72,7 +72,7 @@
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/23-seatedforward.jpg"
   },
   {
-    "id": "1",
+    "id": "9",
     "translations": {
       "en": "Bridge Pose",
       "sa": "Setu Bandhasana",
@@ -81,7 +81,7 @@
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/bridgepose-1.png"
   },
   {
-    "id": "1",
+    "id": "10",
     "translations": {
       "en": "Corpse Pose",
       "sa": "Shavasana",
@@ -90,7 +90,7 @@
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/13-corpse-pose.jpg"
   },
   {
-    "id": "1",
+    "id": "11",
     "translations": {
       "en": "Triangle Pose",
       "sa": "Trikonasana",
@@ -99,7 +99,7 @@
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/01/27-triangle.jpg"
   },
   {
-    "id": "1",
+    "id": "12",
     "translations": {
       "en": "Plank Pose",
       "sa": "Kumbhakasana",
@@ -108,7 +108,7 @@
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/dolphin-plank.png"
   },
   {
-    "id": "1",
+    "id": "13",
     "translations": {
       "en": "Upward-Facing Dog",
       "sa": "Urdhva Mukha Svanasana",
@@ -117,7 +117,7 @@
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/upwardfacingdog.png"
   },
   {
-    "id": "1",
+    "id": "14",
     "translations": {
       "en": "Fish Pose",
       "sa": "Matsyasana",
@@ -126,7 +126,7 @@
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/fish.png"
   },
   {
-    "id": "1",
+    "id": "15",
     "translations": {
       "en": "Chair Pose",
       "sa": "Utkatasana",
@@ -135,7 +135,7 @@
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/01/35-chairpose.jpg"
   },
   {
-    "id": "1",
+    "id": "16",
     "translations": {
       "en": "Garland Pose",
       "sa": "Malasana",
@@ -144,7 +144,7 @@
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/10-garland-pose.jpg"
   },
   {
-    "id": "1",
+    "id": "17",
     "translations": {
       "en": "Pigeon Pose",
       "sa": "Eka Pada Rajakapotasana",
@@ -153,7 +153,7 @@
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/pigeon.png"
   },
   {
-    "id": "1",
+    "id": "18",
     "translations": {
       "en": "Upward Salute",
       "sa": "Urdhva Hastasana",
@@ -162,7 +162,7 @@
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/01/33-upward-salute.jpg"
   },
   {
-    "id": "1",
+    "id": "19",
     "translations": {
       "en": "Revolved Triangle Pose",
       "sa": "Parivrtta Trikonasana",
@@ -171,7 +171,7 @@
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/01/25-revolvedtriangle.jpg"
   },
   {
-    "id": "1",
+    "id": "20",
     "translations": {
       "en": "Revolved Head To Knee Pose",
       "sa": "Parivrtta Janu Sirsasana",

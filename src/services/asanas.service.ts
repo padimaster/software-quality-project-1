@@ -4,6 +4,7 @@ export type Asana = {
   id: string;
   name: string;
   img: string;
+  audio: string;
 };
 
 export const getAsanas = async (locale: Locale) => {
@@ -13,8 +14,9 @@ export const getAsanas = async (locale: Locale) => {
 
   const translatedAsanas: Asana[] = await asanas.map((asana) => ({
     id: asana.id,
-    name: asana.translations[locale],
-    img: asana.img
+    name: asana.translations[locale].name,
+    img: asana.img,
+    audio: asana.translations[locale].audio
   }));
 
   return translatedAsanas;

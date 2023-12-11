@@ -23,6 +23,11 @@ export default async function Home({
           width={500}
           className="mt-4 h-96 w-96"
         ></Image>
+        <div className="mt-4">
+          <audio controls preload="none">
+            <source src={asana?.audio} />
+          </audio>
+        </div>
       </div>
     </main>
   );

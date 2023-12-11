@@ -2,180 +2,360 @@
   {
     "id": "1",
     "translations": {
-      "en": "Mountain Pose",
-      "sa": "Tadasana",
-      "es": "Postura de la Montaña"
+      "en": {
+        "name": "Mountain Pose",
+        "audio": "public\\audios\\EN\\1.mp3"
+      },
+      "sa": {
+        "name": "Tadasana",
+        "audio": "public\\audios\\SA\\1.wav"
+      },
+      "es": {
+        "name": "Postura de la Montaña",
+        "audio": "public\\audios\\ES\\1.mp3"
+      }
     },
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/mountain.jpg"
   },
   {
     "id": "2",
     "translations": {
-      "en": "Downward-Facing Dog",
-      "sa": "Adho Mukha Svanasana",
-      "es": "Perro mirando hacia abajo"
+      "en": {
+        "name": "Downward-Facing Dog",
+        "audio": "public\\audios\\EN\\2.mp3"
+      },
+      "sa": {
+        "name": "Adho Mukha Svanasana",
+        "audio": "public\\audios\\SA\\2.wav"
+      },
+      "es": {
+        "name": "Perro mirando hacia abajo",
+        "audio": "public\\audios\\ES\\2.mp3"
+      }
     },
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/downward-facingdog.png"
   },
   {
     "id": "3",
     "translations": {
-      "en": "Warrior I",
-      "sa": "Virabhadrasana I",
-      "es": "Guerrero I"
+      "en": {
+        "name": "Warrior I",
+        "audio": "public\\audios\\EN\\3.mp3"
+      },
+      "sa": {
+        "name": "Virabhadrasana I",
+        "audio": "public\\audios\\SA\\3.wav"
+      },
+      "es": {
+        "name": "Guerrero I",
+        "audio": "public\\audios\\ES\\3.mp3"
+      }
     },
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/01/32-warrior-1.jpg"
   },
   {
     "id": "4",
     "translations": {
-      "en": "Warrior II",
-      "sa": "Virabhadrasana II",
-      "es": "Guerrero II"
+      "en": {
+        "name": "Warrior II",
+        "audio": "public\\audios\\EN\\4.mp3"
+      },
+      "sa": {
+        "name": "Virabhadrasana II",
+        "audio": "public\\audios\\SA\\4.wav"
+      },
+      "es": {
+        "name": "Guerrero II",
+        "audio": "public\\audios\\ES\\4.mp3"
+      }
     },
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/01/31-warrior-2.jpg"
   },
   {
     "id": "5",
     "translations": {
-      "en": "Tree Pose",
-      "sa": "Vrikshasana",
-      "es": "Postura del Árbol"
+      "en": {
+        "name": "Tree Pose",
+        "audio": "public\\audios\\EN\\5.mp3"
+      },
+      "sa": {
+        "name": "Vrikshasana",
+        "audio": "public\\audios\\SA\\5.wav"
+      },
+      "es": {
+        "name": "Postura del Árbol",
+        "audio": "public\\audios\\ES\\5.mp3"
+      }
     },
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/01/34-treepose.jpg"
   },
   {
     "id": "6",
     "translations": {
-      "en": "Child's Pose",
-      "sa": "Balasana",
-      "es": "Postura del Niño"
+      "en": {
+        "name": "Child's Pose",
+        "audio": "public\\audios\\EN\\6.mp3"
+      },
+      "sa": {
+        "name": "Balasana",
+        "audio": "public\\audios\\SA\\6.wav"
+      },
+      "es": {
+        "name": "Postura del Niño",
+        "audio": "public\\audios\\ES\\6.mp3"
+      }
     },
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/childspose.png"
   },
   {
     "id": "7",
     "translations": {
-      "en": "Half Cobra Pose",
-      "sa": "Ardha Bhujangasana",
-      "es": "Postura de la Cobra a la mitad"
+      "en": {
+        "name": "Half Cobra Pose",
+        "audio": "public\\audios\\EN\\7.mp3"
+      },
+      "sa": {
+        "name": "Ardha Bhujangasana",
+        "audio": "public\\audios\\SA\\7.wav"
+      },
+      "es": {
+        "name": "Postura de la Cobra a la mitad",
+        "audio": "public\\audios\\ES\\7.mp3"
+      }
     },
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/Bhujangasana-Cobra-Pose.png"
   },
   {
     "id": "8",
     "translations": {
-      "en": "Seated Forward Bend",
-      "sa": "Paschimottanasana",
-      "es": "Flexión hacia adelante sentado"
+      "en": {
+        "name": "Seated Forward Bend",
+        "audio": "public\\audios\\EN\\8.mp3"
+      },
+      "sa": {
+        "name": "Paschimottanasana",
+        "audio": "public\\audios\\SA\\8.wav"
+      },
+      "es": {
+        "name": "Flexión hacia adelante sentado",
+        "audio": "public\\audios\\ES\\8.mp3"
+      }
     },
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/23-seatedforward.jpg"
   },
   {
     "id": "9",
     "translations": {
-      "en": "Bridge Pose",
-      "sa": "Setu Bandhasana",
-      "es": "Postura del Puente"
+      "en": {
+        "name": "Bridge Pose",
+        "audio": "public\\audios\\EN\\9.mp3"
+      },
+      "sa": {
+        "name": "Setu Bandhasana",
+        "audio": "public\\audios\\SA\\9.wav"
+      },
+      "es": {
+        "name": "Postura del Puente",
+        "audio": "public\\audios\\ES\\9.mp3"
+      }
     },
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/bridgepose-1.png"
   },
   {
     "id": "10",
     "translations": {
-      "en": "Corpse Pose",
-      "sa": "Shavasana",
-      "es": "Postura del Cadáver"
+      "en": {
+        "name": "Corpse Pose",
+        "audio": "public\\audios\\EN\\10.mp3"
+      },
+      "sa": {
+        "name": "Shavasana",
+        "audio": "public\\audios\\SA\\10.wav"
+      },
+      "es": {
+        "name": "Postura del Cadáver",
+        "audio": "public\\audios\\ES\\10.mp3"
+      }
     },
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/13-corpse-pose.jpg"
   },
   {
     "id": "11",
     "translations": {
-      "en": "Triangle Pose",
-      "sa": "Trikonasana",
-      "es": "Postura del Triángulo"
+      "en": {
+        "name": "Triangle Pose",
+        "audio": "public\\audios\\EN\\11.mp3"
+      },
+      "sa": {
+        "name": "Trikonasana",
+        "audio": "public\\audios\\SA\\11.wav"
+      },
+      "es": {
+        "name": "Postura del Triángulo",
+        "audio": "public\\audios\\ES\\11.mp3"
+      }
     },
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/01/27-triangle.jpg"
   },
   {
     "id": "12",
     "translations": {
-      "en": "Plank Pose",
-      "sa": "Kumbhakasana",
-      "es": "Postura de la Plancha"
+      "en": {
+        "name": "Plank Pose",
+        "audio": "public\\audios\\EN\\12.mp3"
+      },
+      "sa": {
+        "name": "Kumbhakasana",
+        "audio": "public\\audios\\SA\\12.wav"
+      },
+      "es": {
+        "name": "Postura de la Plancha",
+        "audio": "public\\audios\\ES\\12.mp3"
+      }
     },
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/dolphin-plank.png"
   },
   {
     "id": "13",
     "translations": {
-      "en": "Upward-Facing Dog",
-      "sa": "Urdhva Mukha Svanasana",
-      "es": "Perro mirando hacia arriba"
+      "en": {
+        "name": "Upward-Facing Dog",
+        "audio": "public\\audios\\EN\\13.mp3"
+      },
+      "sa": {
+        "name": "Urdhva Mukha Svanasana",
+        "audio": "public\\audios\\SA\\13.wav"
+      },
+      "es": {
+        "name": "Perro mirando hacia arriba",
+        "audio": "public\\audios\\ES\\13.mp3"
+      }
     },
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/upwardfacingdog.png"
   },
   {
     "id": "14",
     "translations": {
-      "en": "Fish Pose",
-      "sa": "Matsyasana",
-      "es": "Postura del Pez"
+      "en": {
+        "name": "Fish Pose",
+        "audio": "public\\audios\\EN\\14.mp3"
+      },
+      "sa": {
+        "name": "Matsyasana",
+        "audio": "public\\audios\\SA\\14.wav"
+      },
+      "es": {
+        "name": "Postura del Pez",
+        "audio": "public\\audios\\ES\\14.mp3"
+      }
     },
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/fish.png"
   },
   {
     "id": "15",
     "translations": {
-      "en": "Chair Pose",
-      "sa": "Utkatasana",
-      "es": "Postura de la Silla"
+      "en": {
+        "name": "Chair Pose",
+        "audio": "public\\audios\\EN\\15.mp3"
+      },
+      "sa": {
+        "name": "Utkatasana",
+        "audio": "public\\audios\\SA\\15.wav"
+      },
+      "es": {
+        "name": "Postura de la Silla",
+        "audio": "public\\audios\\ES\\15.mp3"
+      }
     },
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/01/35-chairpose.jpg"
   },
   {
     "id": "16",
     "translations": {
-      "en": "Garland Pose",
-      "sa": "Malasana",
-      "es": "Postura de la Guirnalda"
+      "en": {
+        "name": "Garland Pose",
+        "audio": "public\\audios\\EN\\16.mp3"
+      },
+      "sa": {
+        "name": "Malasana",
+        "audio": "public\\audios\\SA\\16.wav"
+      },
+      "es": {
+        "name": "Postura de la Guirnalda",
+        "audio": "public\\audios\\ES\\16.mp3"
+      }
     },
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/10-garland-pose.jpg"
   },
   {
     "id": "17",
     "translations": {
-      "en": "Pigeon Pose",
-      "sa": "Eka Pada Rajakapotasana",
-      "es": "Postura de la Paloma"
+      "en": {
+        "name": "Pigeon Pose",
+        "audio": "public\\audios\\EN\\17.mp3"
+      },
+      "sa": {
+        "name": "Eka Pada Rajakapotasana",
+        "audio": "public\\audios\\SA\\17.wav"
+      },
+      "es": {
+        "name": "Postura de la Paloma",
+        "audio": "public\\audios\\ES\\17.mp3"
+      }
     },
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/pigeon.png"
   },
   {
     "id": "18",
     "translations": {
-      "en": "Upward Salute",
-      "sa": "Urdhva Hastasana",
-      "es": "Saludo hacia arriba"
+      "en": {
+        "name": "Upward Salute",
+        "audio": "public\\audios\\EN\\18.mp3"
+      },
+      "sa": {
+        "name": "Urdhva Hastasana",
+        "audio": "public\\audios\\SA\\18.wav"
+      },
+      "es": {
+        "name": "Saludo hacia arriba",
+        "audio": "public\\audios\\ES\\18.mp3"
+      }
     },
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/01/33-upward-salute.jpg"
   },
   {
     "id": "19",
     "translations": {
-      "en": "Revolved Triangle Pose",
-      "sa": "Parivrtta Trikonasana",
-      "es": "Postura del Triángulo Invertido"
+      "en": {
+        "name": "Revolved Triangle Pose",
+        "audio": "public\\audios\\EN\\19.mp3"
+      },
+      "sa": {
+        "name": "Parivrtta Trikonasana",
+        "audio": "public\\audios\\SA\\19.wav"
+      },
+      "es": {
+        "name": "Postura del Triángulo Invertido",
+        "audio": "public\\audios\\ES\\19.mp3"
+      }
     },
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/01/25-revolvedtriangle.jpg"
   },
   {
     "id": "20",
     "translations": {
-      "en": "Revolved Head To Knee Pose",
-      "sa": "Parivrtta Janu Sirsasana",
-      "es": "Postura de la Cabeza a la Rodilla Invertida"
+      "en": {
+        "name": "Revolved Head To Knee Pose",
+        "audio": "public\\audios\\EN\\20.mp3"
+      },
+      "sa": {
+        "name": "Parivrtta Janu Sirsasana",
+        "audio": "public\\audios\\SA\\20.wav"
+      },
+      "es": {
+        "name": "Postura de la Cabeza a la Rodilla Invertida",
+        "audio": "public\\audios\\ES\\20.mp3"
+      }
     },
     "img": "https://www.yogaclassplan.com/wp-content/uploads/2021/06/2-revolved-head-to-knee-pose.jpg"
   }

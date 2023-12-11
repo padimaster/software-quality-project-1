@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['xuanlanyoga.com']
+    domains: ['www.yogaclassplan.com']
   }
 };
 

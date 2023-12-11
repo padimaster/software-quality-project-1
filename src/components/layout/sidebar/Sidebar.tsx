@@ -14,7 +14,6 @@ export default function Asanas({ asanas }: { asanas: Asana[] }) {
 
   const pathname = usePathname();
   const baseAsanasPath = pathname.replace(/\/asanas\/\d+/, '/asanas');
-  console.log(baseAsanasPath);
 
   const handleSearch = (term: string) => {
     const lowerCaseTerm = term.toLowerCase();

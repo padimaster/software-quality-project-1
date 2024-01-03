@@ -16,6 +16,7 @@ function getLocale(request: NextRequest): string | undefined {
   const languages = new Negotiator({ headers: negotiatorHeaders }).languages();
 
   const locale = matchLocale(languages, locales, i18n.defaultLocale);
+
   return locale;
 }
 
@@ -31,7 +32,8 @@ export function middleware(request: NextRequest) {
 
   // Redirect if there is no locale
   if (pathnameIsMissingLocale) {
-    const locale = getLocale(request);
+    console.log(getLocale(request));
+    const locale = 'sa';
     const pathToRedirect = `/${locale}${
       pathname.startsWith('/') ? '' : '/'
     }${pathname}`;

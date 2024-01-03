@@ -2,13 +2,21 @@
 import { Input } from '@/components/ui/input';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Separator } from '@/components/ui/separator';
+import { Locale } from '@/i18n.config';
 import { Asana } from '@/services/asanas.service';
 import { Search } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
+import Image from 'next/image';
 
-export default function Asanas({ asanas }: { asanas: Asana[] }) {
+export default function Sidebar({
+  asanas,
+  locale
+}: {
+  asanas: Asana[];
+  locale: Locale;
+}) {
   const [filteredAsanas, setFilteredAsanas] = useState(asanas);
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -18,7 +26,7 @@ export default function Asanas({ asanas }: { asanas: Asana[] }) {
   const handleSearch = (term: string) => {
     const lowerCaseTerm = term.toLowerCase();
     const filtered = asanas.filter((asana) =>
-      asana.name.toLowerCase().includes(lowerCaseTerm)
+      asana.translations[locale].name.toLowerCase().includes(lowerCaseTerm)
     );
     setFilteredAsanas(filtered);
     setSearchTerm(term);
@@ -39,11 +47,18 @@ export default function Asanas({ asanas }: { asanas: Asana[] }) {
         <div className="mt-4 flex flex-col gap-4">
           {filteredAsanas.map((asana: Asana) => (
             <Link
-              key={asana.name}
+              key={`${asana.id}-sidebar`}
               href={`${baseAsanasPath}/${asana.id}`}
-              className="rounded-md border p-2 text-sm w-full"
+              className="rounded-md border p-2 text-sm w-full flex flex-col justify-center items-center"
             >
-              {asana.name}
+              {asana.translations[locale].name}
+              <Image
+                src={asana?.img || '/images/logos/logo.svg'}
+                alt="Asanas Logo"
+                height={200}
+                width={200}
+                className="mt-4 h-24 w-24"
+              ></Image>
             </Link>
           ))}
         </div>
